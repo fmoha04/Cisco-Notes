@@ -31,14 +31,14 @@ Switch(config)# ip default-gateway 10.0.99.1
 
 > show configs
 ```
-show running-config
-show vlan brief
-show interfaces trunk
-```
-> copy config(RAM) to NVRAM
-```
-copy running-config startup-config
+Switch# show running-config
+Switch# show vlan brief
+Switch# show interfaces trunk
 ```
 
+> copy config(RAM) to NVRAM
+```
+Switch# copy running-config startup-config
+```
 
 
