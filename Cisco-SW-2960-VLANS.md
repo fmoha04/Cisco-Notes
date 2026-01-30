@@ -1,7 +1,7 @@
 > create an vlan on interface and name it
 ```
 Switch(config)# vlan 51
-Switch(config)# name servers
+Switch(config)# name Servers
 ```
 
 > assign an vlan to an interface in mode access
@@ -31,14 +31,14 @@ Switch(config)# ip default-gateway 10.0.99.1
 
 > show configs
 ```
-Switch# show running-config
-Switch# show vlan brief
-Switch# show interfaces trunk
+Switch# show running-config // muestra config actual almacenada en RAM
+Switch# show vlan brief // lista VLAN´s configuradas en el SW y sus puertos de acceso
+Switch# show interfaces trunk // lista los puertos con enlaces trunk y Vlans permitidas 
+Switch# show ip interface brief // muestra info acerca de las interfaces como las IP´s
 ```
 
 > copy config(RAM) to NVRAM
 ```
 Switch# copy running-config startup-config
 ```
-
 
