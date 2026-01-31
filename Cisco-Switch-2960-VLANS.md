@@ -42,3 +42,8 @@ Switch# show ip interface brief // muestra info acerca de las interfaces como la
 Switch# copy running-config startup-config
 ```
 
+> set a hostname
+```
+Switch(config)# hostname switch1
+```
+
