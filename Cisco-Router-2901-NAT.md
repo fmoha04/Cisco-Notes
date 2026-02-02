@@ -19,12 +19,12 @@ ip nat inside source list 1 interface GigabitEthernet 0/1 overload
 ip nat inside source list 2 interface GigabitEthernet 0/1 overload
 ```
 
-> Static Route
+> Adding an Static Route
 ```
 Router(config)# ip route 0.0.0.0 0.0.0.0 192.168.133.254
 ```
 
-> show configs
+> Show configs
 ```
 Router# show ip nat translations
 Router# show ip route
