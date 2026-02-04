@@ -27,6 +27,7 @@ Router(config)# ip route 0.0.0.0 0.0.0.0 192.168.133.254
 > Show configs
 ```
 Router# show ip nat translations
+Router# show ip nat statistics
 Router# show ip route
 ```
 
