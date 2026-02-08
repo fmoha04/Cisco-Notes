@@ -1,4 +1,4 @@
-# Cisco-Notes
+# CiscoNotes
 Cisco Commands CheatSheet
 
 <p align="center">
