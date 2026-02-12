@@ -43,7 +43,7 @@ Switch(config-line)# login
 Switch(config)# enable secret <password>
 ```
 
-> Encrypt Passwords
+> Passwords Encrypt
 ```
 Switch(config)# service password-encryption
 ```
