@@ -71,7 +71,7 @@ Switch(config-line)# transport input ssh
 Switch(config-line)# login local
 ```
 
-> Configure SSH access { login local: pass }
+> Configure SSH access { login: pass }
 ```
 Switch(config)# line vty 0 4
 Switch(config-line)# transport input ssh
